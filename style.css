@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol{
+    list-style-type:none;
+}
+.header_container{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 1320px;
+    padding: 25px 0;
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed; 
+    top: 10px;   
+}
+.header_menu ul li{
+    display: inline-block;
+}
+.header_menu ul li a{
+    text-decoration: none;
+    padding: 0px 15px;
+    color: white;
+    text-transform: uppercase;
+    transition: .5s;
+    line-height: 50px;
+    font-size: xx-large;
+    font-family: "Jersey 15", serif;
+
+}
+.header_menu ul li a:hover{
+    color:tomato;
+}
+.header_button button{
+    padding: 12px 25px;
+    color: white;
+    background-color: #ca8e46;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size:small;
+}
+.header_button button:hover{
+    background: tomato;
+    transition: .5s;
+}
+
+.bannerpart{
+    
+    background: url(./images/2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.banner_overlay{
+    background: rgba(0, 0, 0, 0.70);
+    padding: 160px 0px;
+}
+.banner_text{
+    text-align: center;
+    color: white;
+}
+.always_h1{
+    font-family: "Dancing Script", serif;
+    color: #CA8E46;
+    font-size: 90px;
+}
+.fresh_h1{
+    color:white;
+    font-size: 140px;
+    font-weight: 600; 
+}
+.banner_text p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    font-style:oblique;
+}
+.banner_button{
+    padding: 7px 30px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+.banner_button:hover{
+    background: tomato;
+    transition: .5s;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
